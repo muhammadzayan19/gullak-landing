@@ -199,7 +199,8 @@ export default function GullakLanding() {
             <img src={noBGLogoSrc} alt="Gullak icon" width={32} height={32} />
             <span>Gullak</span>
           </div>
-          <a className="gk-nav-cta" href="https://github.com/muhammadzayan19/gullak-landing/releases/download/Beta/gullak-beta.apk" download>
+          <a className="gk-nav-cta" href="https://github.com/muhammadzayan19/gullak-landing/releases/download/Beta/gullak-beta.apk" download target="_blank"
+  rel="noopener noreferrer">
             <Download size={10} strokeWidth={2.3} />
             <span className="gk-btn-meta">
             <strong>Download</strong>
@@ -237,7 +238,8 @@ export default function GullakLanding() {
           </p>
 
           <div className="gk-cta-row" id="download">
-            <a className="gk-btn-primary" href="https://github.com/muhammadzayan19/gullak-landing/releases/download/Beta/gullak-beta.apk" download>
+            <a className="gk-btn-primary" href="https://github.com/muhammadzayan19/gullak-landing/releases/download/Beta/gullak-beta.apk" download target="_blank"
+  rel="noopener noreferrer">
               <Download size={19} strokeWidth={2.3} />
               <span className="gk-btn-meta">
                 <small>Gullak Beta · v0.1</small>
